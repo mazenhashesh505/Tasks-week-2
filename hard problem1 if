@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int
+main ()
+{
+  int s1, e1, s2, e2, s3, e3, x, v = 0;
+//v=value=0
+  cin >> x >> s1 >> e1 >> s2 >> e2 >> s3 >> e3;
+
+  if (s1 < x && x < e1)
+	{
+	  v = v + 1;
+	}
+  if (s2 < x && x < e2)
+	{
+	  v = v + 1;
+	}
+  if (s3 < x && x < e3)
+	{
+	  v = v + 1;
+	}
+  cout << v;
+
+  return 0;
+}

@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    
+int num ,res;
+cin>>res;
+
+cin>>num;
+if(res<num) res=num;
+
+cin>>num;
+if(res<num) res=num;
+
+cin>>num;
+if(res<num) res=num;
+
+cin>>num;
+if(res<num) res=num;
+
+cin>>num;
+if(res<num) res=num;
+
+cin>>num;
+if(res<num) res=num;
+
+cin>>num;
+if(res<num) res=num;
+
+cin>>num;
+if(res<num) res=num;
+
+cin>>num;
+if(res<num) res=num;
+
+cout<<res;
+    
+    return 0;
+}
